@@ -10,7 +10,6 @@ cd Server npm install
 
 step 3 
 
-cd parking-pirates-Backend/dataLoader
-node homePageUrls.js
-
-then wait for the data to be posted to your local data base ... it takes arround 3mn max
+cd server/dataLoader
+./run.sh
+set the enviromnent variable to export MONGO_URI="mongodb://localhost:27017/parking-pirates"
