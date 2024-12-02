@@ -1,0 +1,132 @@
+.parking-lot {
+  background-color: blueviolet;
+}
+
+.leaflet-popup-content-wrapper{
+  color: beige;
+
+  background-color: black !important;
+}
+.leaflet-popup-close-button{
+  font-size: 30px !important;
+  color: beige !important;
+}
+.leaflet-popup-tip{
+
+  background-color: black !important;
+}
+
+.leaflet-container{
+  z-index: 1;
+}
+
+
+.navigate-button {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 7px;
+  text-align: center;
+  transition: 200ms;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.navigate-button:not(:disabled):hover,
+.navigate-button:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.navigate-button:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+/* .leaflet-interactive{
+  cursor: pointer;
+  background-color: #f4e603;
+} */
+.leaflet-routing-container {
+  display: none !important;
+}
+
+/* Small cluster (1-9 markers) */
+.marker-cluster-small {
+
+  color: rgb(243, 227, 0);
+  border: 5px solid #ffee00a1; /* Darker green border */
+}
+.marker-cluster-small div {
+  background-color: #000000a2;
+
+}
+/* Medium cluster (10-99 markers) */
+.marker-cluster-medium {
+  background-color: #ffc400b7 !important; /* Orange */
+  color: white;
+  border: 2px solid #000000be; /* Darker orange border */
+}
+
+/* Large cluster (100+ markers) */
+.marker-cluster-large {
+  background-color: #ff5e00c2 !important; /* Red */
+  color: white;
+  border: 2px solid #000000cb; /* Darker red border */
+}
+
+
+.loading-overlay {
+  
+  position: absolute;
+  top: 50%;
+  left: 35%;
+ 
+  
+  width: 150px;
+  height: 10%;
+  background: rgba(255, 255, 255, 0.068);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #000000;
+  border-top: 5px solid #eeff00;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 12px;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+
+.custom-popup .leaflet-popup-tip-container {
+  margin-top: -1px;
+}

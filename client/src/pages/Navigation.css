@@ -1,0 +1,13 @@
+@media (max-width: 650px) {
+  .sign-up-btn {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  a {
+    margin: 4px;
+  }
+}

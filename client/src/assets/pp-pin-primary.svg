@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="162.98334mm"
+   height="205.84586mm"
+   viewBox="0 0 162.98334 205.84585"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch16">
+      <stop
+         style="stop-color:#ffc900;stop-opacity:1;"
+         offset="0"
+         id="stop16" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(76.695238,-532.92504)">
+    <g
+       id="g30"
+       transform="translate(-0.16502467,-0.80253672)">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.670626;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="M 80.051189,608.83638 C 80.185722,575.02788 49.183612,538.96872 4.7613606,538.80518 -39.66089,538.64171 -70.50134,574.31097 -70.125378,608.92291 -69.706204,647.51308 -13.712882,713.53768 4.9628946,734.49637 20.964574,716.44303 79.897805,647.35067 80.051189,608.83638 Z"
+         id="path15-5-8-3" />
+      <ellipse
+         style="fill:#ffc900;fill-opacity:1;stroke:none;stroke-width:0.392879;stroke-dasharray:none;stroke-opacity:1"
+         id="path16-65-5"
+         cx="4.9628549"
+         cy="611.56055"
+         rx="54.490948"
+         ry="51.294548" />
+    </g>
+  </g>
+</svg>

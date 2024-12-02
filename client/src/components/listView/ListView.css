@@ -1,0 +1,25 @@
+.css-7iurs7-MuiAccordionSummary-content{
+    align-items: baseline;
+    /* justify-content: center; */
+  max-width: 50em;
+  overflow: hidden;
+  min-width: 358px;
+}
+.text-sm{
+    width: 200px;      
+    overflow: hidden;  
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.css-jineix-MuiButtonBase-root-MuiAccordionSummary-root{
+    border-color: brown;
+
+    border-style: double;
+    max-width: 50em !important ;
+}
+.css-cy7rkm-MuiAccordion-heading{
+    max-width: 40em !important ;
+}
+.css-15vh766-MuiPaper-root-MuiAccordion-root{
+    background-color: black !important;
+}

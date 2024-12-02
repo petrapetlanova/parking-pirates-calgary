@@ -1,0 +1,40 @@
+
+.MuiPaper-root{
+    overflow: hidden !important;
+}
+.filtering_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+/* border-color: aqua;
+border-style: solid; */
+margin: 0px 35px;
+}
+.MuiDrawer-paper{
+    overflow: hidden;
+}
+.text-sm {
+
+  width: 80% !important;
+}
+
+.filtering_Free{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+
+}
+.filtering_Sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.css-17jyosd-MuiSwitch-thumb{
+    color: #ffc900 ;
+}
+.css-tj8d99-MuiSwitch-track{
+    background-color: darkgrey !important;
+}
+

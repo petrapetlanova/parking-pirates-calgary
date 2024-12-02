@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "6733c0e6b0dd4a53df2b4396"
+  },
+  "zone": "1",
+  "price": "$7"
+},
+{
+  "_id": {
+    "$oid": "6733c176b0dd4a53df2b4397"
+  },
+  "zone": "2",
+  "price": "$28"
+},
+{
+  "_id": {
+    "$oid": "6733c1a6b0dd4a53df2b4398"
+  },
+  "zone": "3",
+  "price": "$31"
+},
+{
+  "_id": {
+    "$oid": "6733c1ecb0dd4a53df2b4399"
+  },
+  "zone": "4a",
+  "price": "$38"
+},
+{
+  "_id": {
+    "$oid": "6733c226b0dd4a53df2b439a"
+  },
+  "zone": "4b",
+  "price": "$28"
+},
+{
+  "_id": {
+    "$oid": "6733c263b0dd4a53df2b439b"
+  },
+  "zone": "4c",
+  "price": "$45"
+},
+{
+  "_id": {
+    "$oid": "6733c2c7b0dd4a53df2b439c"
+  },
+  "zone": "4d",
+  "price": "$41"
+},
+{
+  "_id": {
+    "$oid": "6733c2edb0dd4a53df2b439d"
+  },
+  "zone": "5",
+  "price": "$31"
+},
+{
+  "_id": {
+    "$oid": "6733c324b0dd4a53df2b439e"
+  },
+  "zone": "6",
+  "price": "$16"
+},
+{
+  "_id": {
+    "$oid": "6733c345b0dd4a53df2b439f"
+  },
+  "zone": "7",
+  "price": "$12"
+},
+{
+  "_id": {
+    "$oid": "6733c363b0dd4a53df2b43a0"
+  },
+  "zone": "8",
+  "price": "$6"
+},
+{
+  "_id": {
+    "$oid": "6733c398b0dd4a53df2b43a1"
+  },
+  "zone": "9",
+  "price": "$15"
+},
+{
+  "_id": {
+    "$oid": "6733c434b0dd4a53df2b43a2"
+  },
+  "zone": "10",
+  "price": "$11"
+},
+{
+  "_id": {
+    "$oid": "6733c43db0dd4a53df2b43a3"
+  },
+  "zone": "11",
+  "price": "$11"
+},
+{
+  "_id": {
+    "$oid": "6733c45db0dd4a53df2b43a4"
+  },
+  "zone": "12",
+  "price": "$19"
+},
+{
+  "_id": {
+    "$oid": "6733c486b0dd4a53df2b43a5"
+  },
+  "zone": "13",
+  "price": "$10"
+},
+{
+  "_id": {
+    "$oid": "6733c4b8b0dd4a53df2b43a6"
+  },
+  "zone": "14",
+  "price": "$13"
+},
+{
+  "_id": {
+    "$oid": "6733c4d0b0dd4a53df2b43a7"
+  },
+  "zone": "15",
+  "price": "$11"
+},
+{
+  "_id": {
+    "$oid": "6733c4f9b0dd4a53df2b43a8"
+  },
+  "zone": "16",
+  "price": "$16"
+}]
