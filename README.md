@@ -9,7 +9,7 @@ cd ../
 cd Server npm install
 
 step 3 
-
+Copy/Paste .env to dataLoader folder
 cd server/dataLoader
 ./run.sh
-set the enviromnent variable to: export MONGO_URI="mongodb://localhost:27017/parking-pirates"
+node mergeCollections.js
