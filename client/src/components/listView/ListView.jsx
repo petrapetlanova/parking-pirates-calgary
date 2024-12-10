@@ -184,7 +184,7 @@ const ListView = ({ setSelectedCoordinates, setOpen, setIsClicked }) => {
               {result.title || "Parking Location"}
             </div>
             <span
-              style={{ maxWidth: "10px" ,fontWeight: "bold", color: "#ffc900", fontSize: "1em" }}
+              style={{ maxWidth: "18px" ,fontWeight: "bold", color: "#ffc900", fontSize: ".6em" }}
             >
               {result.dailyRate}
             </span>
