@@ -8,10 +8,26 @@ import {
   Grid,
   Snackbar,
   Alert,
+  Divider,
 } from "@mui/material";
 import { useParams } from "react-router-dom";
+import { styled } from '@mui/material/styles';
 
+const SubmitButton = styled(Button)({
+  display: "inline-block",
+  backgroundColor: "#ffc900",
+  color: "#000000",
+  fontSize: "20px",
+  padding: "1rem 2rem",
+  borderRadius: "4px",
+  textDecoration: "none",
+  fontWeight: "bold",
+  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+  fontFamily: "Century Gothic Bold",
+  textTransform: "none",
+})
 const ContactUs = () => {
+  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -93,6 +109,14 @@ const ContactUs = () => {
           Contact Us
         </Typography>
 
+        <Divider sx={{ 
+            width: 100, 
+            height: 4, 
+            backgroundColor: '#ffc900',
+            mx: 'auto',
+            mb: 4 
+          }} /> 
+        
         {/* Subtitle */}
         <Typography
           variant="subtitle1"
@@ -163,22 +187,25 @@ const ContactUs = () => {
 
             {/* Submit Button */}
             <Grid item xs={12} sx={{ textAlign: "center" }}>
-              <Button
-                type="submit"
-                variant="contained"
-                size="large"
-                sx={{
-                  minWidth: 200,
-                  mt: 2,
-                  backgroundColor: "#ffc900",
-                  "&:hover": {
-                    backgroundColor: "#dfaf02",
-                    boxShadow: "0 6px 14px rgba(0, 0, 0, 0.3)",
-                  },
+              <SubmitButton
+                onClick={() => {
+                  handleSubmit()                
                 }}
+                // type="submit"
+                // variant="contained"
+                // size="large"
+                // sx={{
+                //   minWidth: 200,
+                //   mt: 2,
+                //   backgroundColor: "#ffc900",
+                //   "&:hover": {
+                //     backgroundColor: "#dfaf02",
+                //     boxShadow: "0 6px 14px rgba(0, 0, 0, 0.3)",
+                //   },
+                // }}
               >
                 Send Message
-              </Button>
+              </SubmitButton>
             </Grid>
           </Grid>
         </form>
