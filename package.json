@@ -3,5 +3,12 @@
     "dotenv": "^16.4.5",
     "lucide-react": "^0.462.0",
     "react-router-dom": "^7.0.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy": "cd client && npm install && cd .. && cd server && npm install"
   }
 }
